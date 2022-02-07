@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.font-space-mono {
+    font-family: 'Space Mono', monospace;
+}
+
+.font-exo {
+    font-family: 'Exo 2', sans-serif;
+}
+
+canvas.webgl {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.abs-center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    cursor: pointer;
+}
+
+#htmlText{
+    transition: opacity .25s ease-in-out;
+}
+
+#htmlText.invi{
+    opacity: 0;
+}
+
+/*# sourceMappingURL=main.css.map*/
